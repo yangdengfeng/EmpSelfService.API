@@ -1,0 +1,132 @@
+﻿[2017/11/6 14:39:40]-[GlobalBLL.ParaAnalyze]
+values:ju1HMYvHHcnYw08TnK9ZnmR3nHKRLN67bi5jwHh5EveVa6iRBmXD3crkx5AVTmlOxqqfgyjCU1U= num:2 password:123456
+[异常信息]：索引和长度必须引用该字符串内的位置。
+参数名: length
+[堆栈信息]：   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 YKT.Core.xEncrypt.Decrypt(String strText, String sDecrKey)
+   在 YKT.Core.xEncrypt.DecryptText(String strText, String strKey)
+   在 EmpSelfService.BLL.GlobalBLL.ParaAnalyze(String values, Int32 num, String password, String methodName, String terminalNo) 位置 C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 386
+
+[2017/11/6 14:40:10]-[GlobalBLL.ParaAnalyze]
+values:ju1HMYvHHcnYw08TnK9ZnmR3nHKRLN67bi5jwHh5EveVa6iRBmXD3crkx5AVTmlOxqqfgyjCU1U= num:2 password:123456
+[异常信息]：索引和长度必须引用该字符串内的位置。
+参数名: length
+[堆栈信息]：   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 YKT.Core.xEncrypt.Decrypt(String strText, String sDecrKey)
+   在 YKT.Core.xEncrypt.DecryptText(String strText, String strKey)
+   在 EmpSelfService.BLL.GlobalBLL.ParaAnalyze(String values, Int32 num, String password, String methodName, String terminalNo) 位置 C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 386
+
+[2017/11/6 14:40:35]-[GlobalBLL.ParaAnalyze]
+values:ju1HMYvHHcnYw08TnK9ZnmR3nHKRLN67bi5jwHh5EveVa6iRBmXD3crkx5AVTmlOxqqfgyjCU1U= num:2 password:123456
+[异常信息]：索引和长度必须引用该字符串内的位置。
+参数名: length
+[堆栈信息]：   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 YKT.Core.xEncrypt.Decrypt(String strText, String sDecrKey)
+   在 YKT.Core.xEncrypt.DecryptText(String strText, String strKey)
+   在 EmpSelfService.BLL.GlobalBLL.ParaAnalyze(String values, Int32 num, String password, String methodName, String terminalNo) 位置 C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 386
+
+[2017/11/6 14:41:22]-[GlobalBLL.ParaAnalyze]
+values:ju1HMYvHHcnYw08TnK9ZnmR3nHKRLN67bi5jwHh5EveVa6iRBmXD3crkx5AVTmlOxqqfgyjCU1U= num:2 password:123456
+[异常信息]：索引和长度必须引用该字符串内的位置。
+参数名: length
+[堆栈信息]：   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 YKT.Core.xEncrypt.Decrypt(String strText, String sDecrKey)
+   在 YKT.Core.xEncrypt.DecryptText(String strText, String strKey)
+   在 EmpSelfService.BLL.GlobalBLL.ParaAnalyze(String values, Int32 num, String password, String methodName, String terminalNo) 位置 C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 386
+
+[2017/11/6 14:53:08]-[GlobalBLL.ParaAnalyze]
+values:ju1HMYvHHcnYw08TnK9ZnmR3nHKRLN67bi5jwHh5EveVa6iRBmXD3crkx5AVTmlOxqqfgyjCU1U= num:2 password:12345678
+[异常信息]：不正确的数据。
+
+[堆栈信息]：   在 System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   在 System.Security.Cryptography.Utils._DecryptData(SafeKeyHandle hKey, Byte[] data, Int32 ib, Int32 cb, Byte[]& outputBuffer, Int32 outputOffset, PaddingMode PaddingMode, Boolean fDone)
+   在 System.Security.Cryptography.CryptoAPITransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   在 System.Security.Cryptography.CryptoStream.FlushFinalBlock()
+   在 YKT.Core.xEncrypt.Decrypt(String strText, String sDecrKey)
+   在 YKT.Core.xEncrypt.DecryptText(String strText, String strKey)
+   在 EmpSelfService.BLL.GlobalBLL.ParaAnalyze(String values, Int32 num, String password, String methodName, String terminalNo) 位置 C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 386
+
+[2017/11/6 14:54:13]-[GlobalBLL.ParaAnalyze]
+values:uA8ozXy7rZg2hFQ+ozIxgLFK7A+HZQ+0JpD+aXlHOWBbeNqt1GNUSY1IS6XUdsaS num:2 password:12345678
+[异常信息]：不正确的数据。
+
+[堆栈信息]：   在 System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   在 System.Security.Cryptography.Utils._DecryptData(SafeKeyHandle hKey, Byte[] data, Int32 ib, Int32 cb, Byte[]& outputBuffer, Int32 outputOffset, PaddingMode PaddingMode, Boolean fDone)
+   在 System.Security.Cryptography.CryptoAPITransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   在 System.Security.Cryptography.CryptoStream.FlushFinalBlock()
+   在 YKT.Core.xEncrypt.Decrypt(String strText, String sDecrKey)
+   在 YKT.Core.xEncrypt.DecryptText(String strText, String strKey)
+   在 EmpSelfService.BLL.GlobalBLL.ParaAnalyze(String values, Int32 num, String password, String methodName, String terminalNo) 位置 C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 386
+
+[2017/11/6 19:05:10]-[DBHelper.DoExecuteNonQuery]
+执行失败 >> insert into TDTXNINDUSTRYRECORD(tac,
+                                                                  cardid,
+                                                                  txntype,
+                                                                  txnsubtype,
+                                                                  terminalid,
+                                                                  posoprid,
+                                                                  txndate,
+                                                                  TXNDATESN,
+                                                                  TXNTIMESN,
+                                                                  posseq,
+                                                                  txnamt,
+                                                                  txnvalue,
+                                                                  txnaftbal,
+                                                                  cardcnt,
+                                                                  preterminalid,
+                                                                  pretxntype,
+                                                                  pretxndate,
+                                                                  pretxnamt,
+                                                                  orgcode,
+                                                                  citycode,
+                                                                  mediatype,
+                                                                  samseq,
+                                                                  cardkind,
+                                                                  txnappflag,
+                                                                  errcode)
+                                        values('7FD81A2B','00000000000000547063',31,'00','413101355885','005412','2017-11-05 04:40:03',20171105,44003,10678,70,
+                                        100,920,413101355977,'6',20171101175001,'5000',04558510,'8510','0',0,'01','FD',0)
+[异常信息]：ORA-00947: 没有足够的值
+
+[堆栈信息]：   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 EmpSelfService.DAL.DBEntity.DBHelper.DoExecuteNonQuery(String strsql, CommandType cmdType, OracleParameter[] param) 位置 C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\DBEntity\DBHelper.cs:行号 496
+
+[2017/11/6 19:50:00]-[DBHelper.DoExecuteNonQuery]
+执行失败 >> insert into TDTXNINDUSTRYRECORD(tac,
+                                                                  cardid,
+                                                                  txntype,
+                                                                  txnsubtype,
+                                                                  terminalid,
+                                                                  posoprid,
+                                                                  txndate,
+                                                                  TXNDATESN,
+                                                                  TXNTIMESN,
+                                                                  posseq,
+                                                                  txnamt,
+                                                                  txnvalue,
+                                                                  txnaftbal,
+                                                                  cardcnt,
+                                                                  preterminalid,
+                                                                  pretxntype,
+                                                                  pretxndate,
+                                                                  pretxnamt,
+                                                                  orgcode,
+                                                                  citycode,
+                                                                  mediatype,
+                                                                  samseq,
+                                                                  cardkind,
+                                                                  txnappflag,
+                                                                  errcode)
+                                        values('7FD81A2B','00000000000000547063',31,'00','413101355885','005412','2017-11-05 04:40:03',20171105,44003,10678,70,
+                                        100,4120,920,'413101355977',6,'20171101175001',5000,'04558510','8510',0,'0','01',FD)
+[异常信息]：ORA-00947: 没有足够的值
+
+[堆栈信息]：   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 EmpSelfService.DAL.DBEntity.DBHelper.DoExecuteNonQuery(String strsql, CommandType cmdType, OracleParameter[] param) 位置 C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\DBEntity\DBHelper.cs:行号 496
+

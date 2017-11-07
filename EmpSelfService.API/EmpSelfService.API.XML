@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmpSelfService.Api</name>
+    </assembly>
+    <members>
+        <member name="T:EmpSelfService.Api.Controllers.LoginController">
+            <summary>
+            登陆控制器
+            </summary>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.LoginController.Get(System.String,System.String)">
+            <summary>
+            登陆
+            </summary>
+            <param name="terminalNo">设备终端号</param>
+            <param name="values">参数数据：唯一标识符\t用户名\t密码</param>
+            <returns>JSON code:0(成功),其它 错误编码</returns>
+        </member>
+        <member name="T:EmpSelfService.Api.Controllers.RecordCheckController">
+            <summary>
+            消费交易记录验证控制器
+            </summary>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.RecordCheckController.Post(System.String,System.String)">
+            <summary>
+            消费交易记录验证(异地卡不验TAC)
+            </summary>
+            <param name="terminalNo">企业编号</param>
+            <param name="values">参数数据：唯一标识符\t交易检验码\t卡号\t交易类型\t...</param>
+            <returns>JSON code:0(成功),其它 错误编码</returns>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.RecordCheckController.ConvTransRecordModel(System.String[])">
+            <summary>
+            数组转换成交易记录实体
+            </summary>
+            <param name="paramStrings"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.RecordCheckController.CheckTAC_M1(EmpSelfService.Model.TransRecordModel)">
+            <summary>
+            校验M1卡交易记录TAC
+            </summary>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.RecordCheckController.CheckTAC_CPU(EmpSelfService.Model.TransRecordModel)">
+            <summary>
+            校验CPU卡交易记录TAC
+            </summary>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.RecordCheckController.CheckTAC_JTB(EmpSelfService.Model.TransRecordModel)">
+            <summary>
+            校验JTB卡交易记录TAC
+            </summary>
+        </member>
+        <member name="T:EmpSelfService.Api.Controllers.OrderController">
+            <summary>
+            订单控制器
+            </summary>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.OrderController.Post(System.String,System.String)">
+            <summary>
+             生成订单
+            </summary>
+            <param name="terminalNo">设备终端号</param>
+            <param name="values">参数数据：唯一标识符\t订单编号\t订单类型\t卡号\t卡类型\t卡物理类型\t卡余额\t终端编号\t交易金额\t交易方式\t交易时间</param>
+            <returns>JSON code:0(成功),其它 错误编码</returns>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.OrderController.ModifyOrder(System.String,System.String)">
+            <summary>
+            更新订单
+            </summary>
+            <param name="terminalNo">设备终端号</param>
+            <param name="values">参数数据：唯一标识符\t订单单号\t订单状态\t卡余额\t充值时间\t卡号\t卡类型</param>
+            <returns>JSON code:0(成功),其它 错误编码</returns>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.OrderController.GetOrderTransDetail(System.String,System.String)">
+            <summary>
+            获取订单交易明细
+            </summary>
+            <param name="terminalNo">设备终端号</param>
+            <param name="values">参数数据：唯一标识符\t结算开始日期\t结算结束日期\t售卡终端号\t充值终端号</param>
+            <returns>JSON code:0(成功),其它 错误编码</returns>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.OrderController.GetFailureOrderDetail(System.String,System.String)">
+            <summary>
+            获取交易失败的订单信息
+            </summary>
+            <param name="terminalNo"></param>
+            <param name="values">参数数据：唯一标识符\t结算开始日期\t结算结束日期\t类型\t售卡终端号\t充值终端号</param>
+            <returns></returns>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.OrderController.GetCashOrderData(System.String,System.String)">
+            <summary>
+            现金支付订单数据统计
+            </summary>
+            <param name="terminalNo"></param>
+            <param name="values"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EmpSelfService.Api.Controllers.CashBoxController">
+            <summary>
+            钱箱控制器
+            </summary>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.CashBoxController.ModifyCashBox(System.String,System.String)">
+            <summary>
+            钱箱更新
+            </summary>
+            <param name="terminalNo">设备终端号</param>
+            <param name="values">参数数据：唯一标识符\t设备终端号\t增加或减少标识\t金额\t操作用户</param>
+            <returns>JSON code:0(成功),其它 错误编码</returns>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.CashBoxController.Get(System.String,System.String)">
+            <summary>
+            根据终端代号获取终端钱箱余额
+            </summary>
+            <param name="terminalNo">设备终端号</param>
+            <param name="values">参数数据：唯一标识符\t设备终端号</param>
+            <returns>JSON code:0(成功),其它 错误编码</returns>
+        </member>
+        <member name="T:EmpSelfService.Api.Controllers.CardManageController">
+            <summary>
+            卡务管理控制器
+            </summary>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.CardManageController.GetLossCard(System.String,System.String)">
+            <summary>
+            查询是否黑名单卡(自助终端)
+            </summary>
+            <param name="terminalNo">设备终端号</param>
+            <param name="values">参数数据：唯一标识符\t卡号</param>
+            <returns></returns>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.CardManageController.Post(System.String,System.String)">
+            <summary>
+            查询是否黑名单卡(企业)
+            </summary>
+            <param name="companyId">企业编号</param>
+            <param name="values">参数数据：唯一标识符\t卡号</param>
+            <returns></returns>
+        </member>
+        <member name="T:EmpSelfService.Api.Controllers.AliPayNotifyController">
+            <summary>
+            接收支付宝二维码支付通知的控制器
+            </summary>
+        </member>
+        <member name="T:EmpSelfService.Api.Controllers.BaseParamController">
+            <summary>
+            参数数据控制器
+            </summary>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.BaseParamController.Get(System.String,System.String)">
+            <summary>
+            获取参数信息
+            </summary>
+            <param name="cpuId">CPU编号</param>
+            <param name="values">参数数据：唯一标识符\t参数类型</param>
+            <returns></returns>
+        </member>
+        <member name="T:EmpSelfService.Api.Controllers.BaseDictController">
+            <summary>
+            字典数据控制器
+            </summary>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.BaseDictController.Get(System.String)">
+            <summary>
+            获取字典参数
+            </summary>
+            <param name="terminalNo"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EmpSelfService.Api.Controllers.AccountController">
+            <summary>
+            自助终端帐号信息控制器
+            </summary>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.AccountController.Get(System.String)">
+            <summary>
+            获取自助终端帐号信息 (注：一个设备终端号24小时内只允许获取一次)
+            </summary>
+            <param name="terminalNo">设备终端号</param>
+            <returns>JSON code:0(成功),其它 错误编码</returns>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.AccountController.GetAccount(System.String)">
+            <summary>
+            获取企业帐号信息 (注：一个企业编号24小时内只允许获取一次)
+            </summary>
+            <param name="companyId">企业编号</param>
+            <returns>JSON code:0(成功),其它 错误编码</returns>
+        </member>
+        <member name="T:EmpSelfService.Api.Controllers.NetWorkController">
+            <summary>
+            网点控制器
+            </summary>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.NetWorkController.Get(System.String,System.String)">
+            <summary>
+            获取网点信息
+            </summary>
+            <param name="terminalNo">设备终端号</param>
+            <param name="values">参数数据：唯一标识符\t城市代码</param> 
+            <returns>JSON code:0(成功),其它 错误编码</returns>
+        </member>
+        <member name="T:EmpSelfService.Api.Controllers.ClientFilesController">
+            <summary>
+            客户端文件控制
+            </summary>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.ClientFilesController.GetNewestFilePath(System.String,System.String)">
+            <summary>
+            获取最新客户端文件路径
+            </summary>
+            <param name="cpuId">CPU编号</param>
+            <param name="values">当前版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.ClientFilesController.GetFile(System.String,System.String)">
+            <summary>
+            获取文件
+            </summary>
+            <param name="cpuId">CPU编号</param>
+            <param name="values">参数数据：唯一标识符\t文件名</param>
+            <returns></returns>
+        </member>
+        <member name="T:EmpSelfService.Api.SwaggerConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EmpSelfService.Api.SwaggerConfig.Register">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EmpSelfService.Api.Controllers.QRCodeController">
+            <summary>
+            生成支付二维码控制器
+            </summary>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.QRCodeController.Post(System.String,System.String)">
+            <summary>
+            生成支付二维码
+            </summary>
+            <param name="terminalNo">设备终端号</param>
+            <param name="values">参数数据：唯一标识符\t设备终端编号\t交易类型\t交易金额\t交易方式\t卡号\t卡类型</param>
+            <returns>JSON code:0(成功),其它 错误编码</returns>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.QRCodeController.Get(System.String,System.String)">
+            <summary>
+            二维码支付状态查询 
+            </summary>
+            <param name="terminalNo">设备终端号</param>
+            <param name="values">参数数据：唯一标识符\t交易订单号\t交易方式（1:WeChat 2:AliPay）</param>
+            <returns>JSON code:0(成功),其它 错误编码</returns>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.TelStateController.Post(System.String,System.String)">
+            <summary>
+            保存设备状态信息
+            </summary>
+            <param name="terminalNo">设备终端号</param>
+            <param name="values">参数数据：
+            唯一标识符\tCPU编号\t售卡设备ID\t充值设备ID\t售卡设备状态\t充值设备状态\t发卡机状态\t
+            打印机状态\t钱箱状态\tUPS使用状态\tUPS电量百分比\t本地自助服务软件的版本号
+            </param>
+            <returns></returns>
+        </member>
+        <member name="T:EmpSelfService.Api.Controllers.SusCardController">
+            <summary>
+            可疑卡号
+            </summary>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.SusCardController.Post(System.String,System.String)">
+            <summary>
+            可疑卡号(添加/去掉)
+            </summary>
+            <param name="companyId">公司编号</param>
+            <param name="values">参数数据：唯一标识符\t卡号\t类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.HomeController.Index">
+            <summary>
+            获取当前版本
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:EmpSelfService.Api.Controllers.CardStockController">
+            <summary>
+            卡库存控制器
+            </summary>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.CardStockController.ModifyCardStock(System.String,System.String)">
+            <summary>
+            卡库存更新
+            </summary>
+            <param name="terminalNo">设备终端号</param>
+            <param name="values">参数数据：唯一标识符\t设备终端号\t增加或减少标识\t数量\t操作用户</param>
+            <returns>JSON code:0(成功),其它 错误编码</returns>
+        </member>
+        <member name="M:EmpSelfService.Api.Controllers.CardStockController.Get(System.String,System.String)">
+            <summary>
+            根据终端代号获取终端卡箱信息
+            </summary>
+            <param name="terminalNo">设备终端号</param>
+            <param name="values">参数数据：唯一标识符\t设备终端号</param>
+            <returns>JSON code:0(成功),其它 错误编码</returns>
+        </member>
+    </members>
+</doc>

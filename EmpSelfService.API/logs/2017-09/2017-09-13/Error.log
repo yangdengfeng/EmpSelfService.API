@@ -1,0 +1,5 @@
+﻿[2017/9/13 12:13:11]-[PayBLL.CreateQrUrl]
+[异常信息]：未将对象引用设置到对象的实例。
+[堆栈信息]：   在 EmpSelfService.BLL.QRCodeBLL.GetPayWeChatQRCodeData(String txntype, String txnAmt, String terminalid, String cardid, String cardtype, Boolean& b, String& tradeNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.BLL\QRCodeBLL.cs:行号 152
+   在 EmpSelfService.BLL.QRCodeBLL.CreateQrUrl(String terminalId, String txnAmt, String txnType, String txnWay, String cardId, String cardType) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.BLL\QRCodeBLL.cs:行号 44
+

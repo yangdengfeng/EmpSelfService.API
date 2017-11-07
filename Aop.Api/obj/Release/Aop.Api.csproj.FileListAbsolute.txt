@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\Aop.Api\bin\Release\Aop.Api.dll
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\Aop.Api\bin\Release\Aop.Api.pdb
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\Aop.Api\obj\Release\Aop.Api.dll
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\Aop.Api\obj\Release\Aop.Api.pdb

@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.Model\bin\Release\EmpSelfService.Model.dll
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.Model\bin\Release\EmpSelfService.Model.pdb
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.Model\obj\Release\EmpSelfService.Model.dll
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.Model\obj\Release\EmpSelfService.Model.pdb

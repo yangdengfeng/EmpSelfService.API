@@ -1,0 +1,111 @@
+﻿[2017/4/21 11:09:05]-[TelStateBLL.SaveTerState]
+[异常信息]：System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 EmpSelfService.DAL.DBEntity.OracleDb.RunCommand(String commandText, DataTable& dataTable) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.DAL\DBEntity\OracleDB.cs:行号 294
+   在 EmpSelfService.DAL.DBEntity.DBHelper.RunCommand(String commandText, DataTable& dataTable) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.DAL\DBEntity\DBHelper.cs:行号 213
+   在 EmpSelfService.DAL.TelStateDAL.GetTelState(String CpuId) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.DAL\TelStateDAL.cs:行号 35;SQL:SELECT * FROM OMTERMINALSTATETB WHERE CPUID = 'ABCDEF0123456789'
+
+[堆栈信息]：   在 EmpSelfService.DAL.TelStateDAL.GetTelState(String CpuId) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.DAL\TelStateDAL.cs:行号 39
+   在 EmpSelfService.BLL.TelStateBLL.SaveTerState(OmTerminalStateTB om) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.BLL\TelStateBLL.cs:行号 27
+
+[2017/4/21 11:12:41]-[EmpSelfService.Api.TelStateController.Post]
+[异常信息]：GetUserByTerminalNo(根据终端号查找用户信息):ORA-01017: invalid username/password; logon denied
+
+[堆栈信息]：   在 EmpSelfService.BLL.GlobalBLL.GetUserByTerminalNo(String terminalNo) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 162
+   在 EmpSelfService.BLL.GlobalBLL.VerifyUserAndParams(String terminalNo, String values, Int32 paramsNum, String methodName) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 213
+   在 EmpSelfService.Api.Controllers.TelStateController.Post(String terminalNo, String values) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.API\Controllers\TelStateController.cs:行号 38
+
+[2017/4/21 14:31:08]-[EmpSelfService.Api.TelStateController.Post]
+[异常信息]：GetUserByTerminalNo(根据终端号查找用户信息):ORA-01017: invalid username/password; logon denied
+
+[堆栈信息]：   在 EmpSelfService.BLL.GlobalBLL.GetUserByTerminalNo(String terminalNo) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 162
+   在 EmpSelfService.BLL.GlobalBLL.VerifyUserAndParams(String terminalNo, String values, Int32 paramsNum, String methodName) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 213
+   在 EmpSelfService.Api.Controllers.TelStateController.Post(String terminalNo, String values) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.API\Controllers\TelStateController.cs:行号 38
+
+[2017/4/21 14:31:43]-[EmpSelfService.Api.TelStateController.Post]
+[异常信息]：GetUserByTerminalNo(根据终端号查找用户信息):ORA-01017: invalid username/password; logon denied
+
+[堆栈信息]：   在 EmpSelfService.BLL.GlobalBLL.GetUserByTerminalNo(String terminalNo) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 162
+   在 EmpSelfService.BLL.GlobalBLL.VerifyUserAndParams(String terminalNo, String values, Int32 paramsNum, String methodName) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 213
+   在 EmpSelfService.Api.Controllers.TelStateController.Post(String terminalNo, String values) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.API\Controllers\TelStateController.cs:行号 38
+
+[2017/4/21 14:33:10]-[EmpSelfService.Api.TelStateController.Post]
+[异常信息]：GetUserByTerminalNo(根据终端号查找用户信息):ORA-01017: invalid username/password; logon denied
+
+[堆栈信息]：   在 EmpSelfService.BLL.GlobalBLL.GetUserByTerminalNo(String terminalNo) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 162
+   在 EmpSelfService.BLL.GlobalBLL.VerifyUserAndParams(String terminalNo, String values, Int32 paramsNum, String methodName) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 213
+   在 EmpSelfService.Api.Controllers.TelStateController.Post(String terminalNo, String values) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.API\Controllers\TelStateController.cs:行号 38
+
+[2017/4/21 14:34:40]-[EmpSelfService.Api.TelStateController.Post]
+[异常信息]：GetUserByTerminalNo(根据终端号查找用户信息):ORA-01017: invalid username/password; logon denied
+
+[堆栈信息]：   在 EmpSelfService.BLL.GlobalBLL.GetUserByTerminalNo(String terminalNo) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 162
+   在 EmpSelfService.BLL.GlobalBLL.VerifyUserAndParams(String terminalNo, String values, Int32 paramsNum, String methodName) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 213
+   在 EmpSelfService.Api.Controllers.TelStateController.Post(String terminalNo, String values) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.API\Controllers\TelStateController.cs:行号 38
+
+[2017/4/21 14:35:38]-[EmpSelfService.Api.TelStateController.Post]
+[异常信息]：GetUserByTerminalNo(根据终端号查找用户信息):ORA-01017: invalid username/password; logon denied
+
+[堆栈信息]：   在 EmpSelfService.BLL.GlobalBLL.GetUserByTerminalNo(String terminalNo) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 162
+   在 EmpSelfService.BLL.GlobalBLL.VerifyUserAndParams(String terminalNo, String values, Int32 paramsNum, String methodName) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 213
+   在 EmpSelfService.Api.Controllers.TelStateController.Post(String terminalNo, String values) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.API\Controllers\TelStateController.cs:行号 38
+
+[2017/4/21 14:40:40]-[TelStateBLL.SaveTerState]
+[异常信息]：System.Data.OracleClient.OracleException (0x80131938): ORA-01747: user.table.column, table.column 或列说明无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 EmpSelfService.DAL.DBEntity.OracleDb.RunCommand(String commandText) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.DAL\DBEntity\OracleDB.cs:行号 228
+   在 EmpSelfService.DAL.DBEntity.DBHelper.RunCommand(String commandText) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.DAL\DBEntity\DBHelper.cs:行号 170
+   在 EmpSelfService.DAL.TelStateDAL.ModifyTelState(OmTerminalStateTB om, String TableName) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.DAL\TelStateDAL.cs:行号 97;SQL:UPDATE OMTERMINALSTATETB 
+SET TIMELAST = TO_DATE('2017-04-21 14:40:37','YYYY-MM-DD HH24:MI:SS'),
+ SKTERMINALID = '413100000088',
+ CZTERMINALID = '413100000089',
+ SKSTATE = '1',
+ CZSTATE = '1',
+ CARDISSUERSTATE = '0',
+ PRINTERSTATE = '1',
+ CASHBOXSTATE = '0',
+ UPSSTATE = '0',
+ UPSPERCENTAGE = '0',
+WHERE CPUID = 'ABCDEF0123456789'
+
+[堆栈信息]：   在 EmpSelfService.DAL.TelStateDAL.ModifyTelState(OmTerminalStateTB om, String TableName) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.DAL\TelStateDAL.cs:行号 101
+   在 EmpSelfService.BLL.TelStateBLL.SaveTerState(OmTerminalStateTB om) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.BLL\TelStateBLL.cs:行号 30
+
+[2017/4/21 14:43:31]-[TelStateBLL.SaveTerState]
+[异常信息]：System.Data.OracleClient.OracleException (0x80131938): ORA-01747: user.table.column, table.column 或列说明无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 EmpSelfService.DAL.DBEntity.OracleDb.RunCommand(String commandText) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.DAL\DBEntity\OracleDB.cs:行号 228
+   在 EmpSelfService.DAL.DBEntity.DBHelper.RunCommand(String commandText) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.DAL\DBEntity\DBHelper.cs:行号 170
+   在 EmpSelfService.DAL.TelStateDAL.ModifyTelState(OmTerminalStateTB om, String TableName) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.DAL\TelStateDAL.cs:行号 97;SQL:UPDATE OMTERMINALSTATETB 
+SET TIMELAST = TO_DATE('2017-04-21 14:42:12','YYYY-MM-DD HH24:MI:SS'),
+ SKTERMINALID = '413100000088',
+ CZTERMINALID = '413100000089',
+ SKSTATE = '1',
+ CZSTATE = '1',
+ CARDISSUERSTATE = '0',
+ PRINTERSTATE = '1',
+ CASHBOXSTATE = '0',
+ UPSSTATE = '0',
+ UPSPERCENTAGE = '0',
+WHERE CPUID = 'ABCDEF0123456789'
+
+[堆栈信息]：   在 EmpSelfService.DAL.TelStateDAL.ModifyTelState(OmTerminalStateTB om, String TableName) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.DAL\TelStateDAL.cs:行号 101
+   在 EmpSelfService.BLL.TelStateBLL.SaveTerState(OmTerminalStateTB om) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceTerminalAPI\EmpSelfService.BLL\TelStateBLL.cs:行号 30
+

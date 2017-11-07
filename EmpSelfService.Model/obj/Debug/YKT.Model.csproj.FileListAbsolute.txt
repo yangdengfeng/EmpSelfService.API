@@ -1,0 +1,4 @@
+E:\WorkSpace\Self-ServiceTerminalApi\YKT.Model\bin\Debug\YKT.Model.dll
+E:\WorkSpace\Self-ServiceTerminalApi\YKT.Model\bin\Debug\YKT.Model.pdb
+E:\WorkSpace\Self-ServiceTerminalApi\YKT.Model\obj\Debug\YKT.Model.dll
+E:\WorkSpace\Self-ServiceTerminalApi\YKT.Model\obj\Debug\YKT.Model.pdb

@@ -1,0 +1,147 @@
+﻿[2017/8/30 8:45:07]-[EmpSelfService.Api.AccountController.Get]
+[异常信息]：值不能为 null。
+参数名: key
+[堆栈信息]：   在 System.Web.Caching.CacheKey..ctor(String key, Boolean isPublic)
+   在 System.Web.Caching.CacheInternal.DoGet(Boolean isPublic, String key, CacheGetOptions getOptions)
+   在 System.Web.Caching.Cache.Get(String key)
+   在 EmpSelfService.Common.CacheHelper.Get(String key) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CacheHelper.cs:行号 68
+   在 EmpSelfService.Api.Controllers.AccountController.Get(String terminalNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\AccountController.cs:行号 33
+
+[2017/8/30 8:55:46]-[GlobalBLL.ParaAnalyze]
+values:tXhyGNPH1TfIoyXw55qwSubfbmusA2K3OYFyIcNrkWK4n09iAZw2H/0NWdZcXWi80UTxItfv5IYj3kut4 0 X8UH4kqn35m3 num:3 password:12345678
+[异常信息]：不正确的数据。
+
+[堆栈信息]：   在 System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   在 System.Security.Cryptography.Utils._DecryptData(SafeKeyHandle hKey, Byte[] data, Int32 ib, Int32 cb, Byte[]& outputBuffer, Int32 outputOffset, PaddingMode PaddingMode, Boolean fDone)
+   在 System.Security.Cryptography.CryptoAPITransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   在 System.Security.Cryptography.CryptoStream.FlushFinalBlock()
+   在 YKT.Core.xEncrypt.Decrypt(String strText, String sDecrKey)
+   在 YKT.Core.xEncrypt.DecryptText(String strText, String strKey)
+   在 EmpSelfService.BLL.GlobalBLL.ParaAnalyze(String values, Int32 num, String password) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 318
+
+[2017/8/30 9:42:52]-[EmpSelfService.Api.AccountController.Get]
+[异常信息]：值不能为 null。
+参数名: key
+[堆栈信息]：   在 System.Web.Caching.CacheKey..ctor(String key, Boolean isPublic)
+   在 System.Web.Caching.CacheInternal.DoGet(Boolean isPublic, String key, CacheGetOptions getOptions)
+   在 System.Web.Caching.Cache.Get(String key)
+   在 EmpSelfService.Common.CacheHelper.Get(String key) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CacheHelper.cs:行号 68
+   在 EmpSelfService.Api.Controllers.AccountController.Get(String terminalNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\AccountController.cs:行号 33
+
+[2017/8/30 9:48:02]-[EmpSelfService.Api.AccountController.Get]
+[异常信息]：值不能为 null。
+参数名: key
+[堆栈信息]：   在 System.Web.Caching.CacheKey..ctor(String key, Boolean isPublic)
+   在 System.Web.Caching.CacheInternal.DoGet(Boolean isPublic, String key, CacheGetOptions getOptions)
+   在 System.Web.Caching.Cache.Get(String key)
+   在 EmpSelfService.Common.CacheHelper.Get(String key) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CacheHelper.cs:行号 68
+   在 EmpSelfService.Api.Controllers.AccountController.Get(String terminalNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\AccountController.cs:行号 33
+
+[2017/8/30 10:07:02]-[EmpSelfService.Api.AccountController.Get]
+[异常信息]：值不能为 null。
+参数名: key
+[堆栈信息]：   在 System.Web.Caching.CacheKey..ctor(String key, Boolean isPublic)
+   在 System.Web.Caching.CacheInternal.DoGet(Boolean isPublic, String key, CacheGetOptions getOptions)
+   在 System.Web.Caching.Cache.Get(String key)
+   在 EmpSelfService.Common.CacheHelper.Get(String key) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CacheHelper.cs:行号 68
+   在 EmpSelfService.Api.Controllers.AccountController.Get(String terminalNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\AccountController.cs:行号 33
+
+[2017/8/30 10:57:30]-[EmpSelfService.Api.AccountController.Get]
+[异常信息]：值不能为 null。
+参数名: key
+[堆栈信息]：   在 System.Web.Caching.CacheKey..ctor(String key, Boolean isPublic)
+   在 System.Web.Caching.CacheInternal.DoGet(Boolean isPublic, String key, CacheGetOptions getOptions)
+   在 System.Web.Caching.Cache.Get(String key)
+   在 EmpSelfService.Common.CacheHelper.Get(String key) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CacheHelper.cs:行号 68
+   在 EmpSelfService.Api.Controllers.AccountController.Get(String terminalNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\AccountController.cs:行号 33
+
+[2017/8/30 11:19:21]-[EmpSelfService.Api.AccountController.Get]
+[异常信息]：值不能为 null。
+参数名: key
+[堆栈信息]：   在 System.Web.Caching.CacheKey..ctor(String key, Boolean isPublic)
+   在 System.Web.Caching.CacheInternal.DoGet(Boolean isPublic, String key, CacheGetOptions getOptions)
+   在 System.Web.Caching.Cache.Get(String key)
+   在 EmpSelfService.Common.CacheHelper.Get(String key) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CacheHelper.cs:行号 68
+   在 EmpSelfService.Api.Controllers.AccountController.Get(String terminalNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\AccountController.cs:行号 33
+
+[2017/8/30 11:26:32]-[EmpSelfService.Api.AccountController.Get]
+[异常信息]：值不能为 null。
+参数名: key
+[堆栈信息]：   在 System.Web.Caching.CacheKey..ctor(String key, Boolean isPublic)
+   在 System.Web.Caching.CacheInternal.DoGet(Boolean isPublic, String key, CacheGetOptions getOptions)
+   在 System.Web.Caching.Cache.Get(String key)
+   在 EmpSelfService.Common.CacheHelper.Get(String key) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CacheHelper.cs:行号 68
+   在 EmpSelfService.Api.Controllers.AccountController.Get(String terminalNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\AccountController.cs:行号 33
+
+[2017/8/30 11:31:57]-[EmpSelfService.Api.AccountController.Get]
+[异常信息]：值不能为 null。
+参数名: key
+[堆栈信息]：   在 System.Web.Caching.CacheKey..ctor(String key, Boolean isPublic)
+   在 System.Web.Caching.CacheInternal.DoGet(Boolean isPublic, String key, CacheGetOptions getOptions)
+   在 System.Web.Caching.Cache.Get(String key)
+   在 EmpSelfService.Common.CacheHelper.Get(String key) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CacheHelper.cs:行号 68
+   在 EmpSelfService.Api.Controllers.AccountController.Get(String terminalNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\AccountController.cs:行号 33
+
+[2017/8/30 11:34:09]-[EmpSelfService.Api.AccountController.Get]
+[异常信息]：值不能为 null。
+参数名: key
+[堆栈信息]：   在 System.Web.Caching.CacheKey..ctor(String key, Boolean isPublic)
+   在 System.Web.Caching.CacheInternal.DoGet(Boolean isPublic, String key, CacheGetOptions getOptions)
+   在 System.Web.Caching.Cache.Get(String key)
+   在 EmpSelfService.Common.CacheHelper.Get(String key) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CacheHelper.cs:行号 68
+   在 EmpSelfService.Api.Controllers.AccountController.Get(String terminalNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\AccountController.cs:行号 33
+
+[2017/8/30 11:38:30]-[EmpSelfService.Api.AccountController.Get]
+[异常信息]：值不能为 null。
+参数名: key
+[堆栈信息]：   在 System.Web.Caching.CacheKey..ctor(String key, Boolean isPublic)
+   在 System.Web.Caching.CacheInternal.DoGet(Boolean isPublic, String key, CacheGetOptions getOptions)
+   在 System.Web.Caching.Cache.Get(String key)
+   在 EmpSelfService.Common.CacheHelper.Get(String key) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CacheHelper.cs:行号 68
+   在 EmpSelfService.Api.Controllers.AccountController.Get(String terminalNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\AccountController.cs:行号 33
+
+[2017/8/30 11:40:54]-[EmpSelfService.Api.AccountController.Get]
+[异常信息]：值不能为 null。
+参数名: key
+[堆栈信息]：   在 System.Web.Caching.CacheKey..ctor(String key, Boolean isPublic)
+   在 System.Web.Caching.CacheInternal.DoGet(Boolean isPublic, String key, CacheGetOptions getOptions)
+   在 System.Web.Caching.Cache.Get(String key)
+   在 EmpSelfService.Common.CacheHelper.Get(String key) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CacheHelper.cs:行号 68
+   在 EmpSelfService.Api.Controllers.AccountController.Get(String terminalNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\AccountController.cs:行号 33
+
+[2017/8/30 12:38:43]-[EmpSelfService.Api.AccountController.Get]
+[异常信息]：值不能为 null。
+参数名: key
+[堆栈信息]：   在 System.Web.Caching.CacheKey..ctor(String key, Boolean isPublic)
+   在 System.Web.Caching.CacheInternal.DoGet(Boolean isPublic, String key, CacheGetOptions getOptions)
+   在 System.Web.Caching.Cache.Get(String key)
+   在 EmpSelfService.Common.CacheHelper.Get(String key) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CacheHelper.cs:行号 68
+   在 EmpSelfService.Api.Controllers.AccountController.Get(String terminalNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\AccountController.cs:行号 33
+
+[2017/8/30 12:44:22]-[EmpSelfService.Api.AccountController.Get]
+[异常信息]：值不能为 null。
+参数名: key
+[堆栈信息]：   在 System.Web.Caching.CacheKey..ctor(String key, Boolean isPublic)
+   在 System.Web.Caching.CacheInternal.DoGet(Boolean isPublic, String key, CacheGetOptions getOptions)
+   在 System.Web.Caching.Cache.Get(String key)
+   在 EmpSelfService.Common.CacheHelper.Get(String key) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CacheHelper.cs:行号 68
+   在 EmpSelfService.Api.Controllers.AccountController.Get(String terminalNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\AccountController.cs:行号 33
+
+[2017/8/30 13:49:24]-[EmpSelfService.Api.AccountController.Get]
+[异常信息]：值不能为 null。
+参数名: key
+[堆栈信息]：   在 System.Web.Caching.CacheKey..ctor(String key, Boolean isPublic)
+   在 System.Web.Caching.CacheInternal.DoGet(Boolean isPublic, String key, CacheGetOptions getOptions)
+   在 System.Web.Caching.Cache.Get(String key)
+   在 EmpSelfService.Common.CacheHelper.Get(String key) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CacheHelper.cs:行号 68
+   在 EmpSelfService.Api.Controllers.AccountController.Get(String terminalNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\AccountController.cs:行号 33
+
+[2017/8/30 14:01:51]-[EmpSelfService.Api.AccountController.Get]
+[异常信息]：值不能为 null。
+参数名: key
+[堆栈信息]：   在 System.Web.Caching.CacheKey..ctor(String key, Boolean isPublic)
+   在 System.Web.Caching.CacheInternal.DoGet(Boolean isPublic, String key, CacheGetOptions getOptions)
+   在 System.Web.Caching.Cache.Get(String key)
+   在 EmpSelfService.Common.CacheHelper.Get(String key) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CacheHelper.cs:行号 68
+   在 EmpSelfService.Api.Controllers.AccountController.Get(String terminalNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\AccountController.cs:行号 33
+

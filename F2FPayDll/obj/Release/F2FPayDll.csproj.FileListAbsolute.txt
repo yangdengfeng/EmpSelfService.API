@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\F2FPayDll\bin\Release\F2FPayDll.dll
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\F2FPayDll\bin\Release\F2FPayDll.pdb
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\F2FPayDll\bin\Release\Aop.Api.dll
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\F2FPayDll\bin\Release\Aop.Api.pdb
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\F2FPayDll\obj\Release\F2FPayDll.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\F2FPayDll\obj\Release\F2FPayDll.dll
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\F2FPayDll\obj\Release\F2FPayDll.pdb

@@ -1,0 +1,20 @@
+﻿[2017/11/1 16:15:38]-[GlobalBLL.ParaAnalyze]
+values:5MXRfIwjXT1irj5JONIWFZw7ptWMVirJXCDR1mVT+qarfOh8e0QhTyMqMZvcHR5F/YbzelNcD7KAK5Itdnl2PU+eSoIAfy5hFaN9eSG4cZYucy1muTifgb num:7 password:12345678
+[异常信息]：Base-64 字符数组或字符串的长度无效。
+[堆栈信息]：   在 System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   在 System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   在 System.Convert.FromBase64String(String s)
+   在 YKT.Core.xEncrypt.Decrypt(String strText, String sDecrKey)
+   在 YKT.Core.xEncrypt.DecryptText(String strText, String strKey)
+   在 EmpSelfService.BLL.GlobalBLL.ParaAnalyze(String values, Int32 num, String password) 位置 C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 356
+
+[2017/11/1 16:17:11]-[GlobalBLL.ParaAnalyze]
+values:5MXRfIwjXT1irj5JONIWFZw7ptWMVirJXCDR1mVT+qarfOh8e0QhTyMqMZvcHR5F/YbzelNcD7KAK5Itdnl2PU+eSoIAfy5hFaN9eSG4cZYucy1muTifgb num:7 password:12345678
+[异常信息]：Base-64 字符数组或字符串的长度无效。
+[堆栈信息]：   在 System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   在 System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   在 System.Convert.FromBase64String(String s)
+   在 YKT.Core.xEncrypt.Decrypt(String strText, String sDecrKey)
+   在 YKT.Core.xEncrypt.DecryptText(String strText, String strKey)
+   在 EmpSelfService.BLL.GlobalBLL.ParaAnalyze(String values, Int32 num, String password) 位置 C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 356
+

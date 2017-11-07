@@ -1,0 +1,15 @@
+﻿[2017/5/18 17:17:46]-[EmpSelfService.Api.ClientFilesController.GetFile]
+[异常信息]：ORA-03135: 连接失去联系
+进程 ID: 6572
+会话 ID: 110 序列号: 22714
+
+[堆栈信息]：   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteScalarInternal(Boolean needCLStype, Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteScalar()
+   在 EmpSelfService.DAL.DBEntity.OracleDb.GetReturnStr(String commandText) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceAPI\EmpSelfService.DAL\DBEntity\OracleDB.cs:行号 191
+   在 EmpSelfService.DAL.DBEntity.DBHelper.GetReturnStr(String commandText) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceAPI\EmpSelfService.DAL\DBEntity\DBHelper.cs:行号 150
+   在 EmpSelfService.DAL.ClientFileDAL.QueryTerminalPassword(String cpuId) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceAPI\EmpSelfService.DAL\ClientFileDAL.cs:行号 98
+   在 EmpSelfService.BLL.ClientFilesBLL.GetFile(String cpuId, String filePath) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceAPI\EmpSelfService.BLL\ClientFilesBLL.cs:行号 89
+   在 EmpSelfService.Api.Controllers.ClientFilesController.GetFile(String cpuId, String values) 位置 E:\X西宁项目\自助终端系统_第二代\EmpSelfServiceAPI\EmpSelfService.API\Controllers\ClientFilesController.cs:行号 53
+

@@ -1,0 +1,43 @@
+﻿[2017/8/29 10:50:37]-[TelStateBLL.SaveTerState]
+[异常信息]：System.Data.OracleClient.OracleException (0x80131938): ORA-12899: 列 "YKTZZZD"."OMTERMINALSTATEHISTB"."CPUID" 的值太大 (实际值: 25, 最大值: 20)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 EmpSelfService.DAL.DBEntity.OracleDb.RunCommand(String commandText) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\DBEntity\OracleDB.cs:行号 228
+   在 EmpSelfService.DAL.DBEntity.DBHelper.RunCommand(String commandText) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\DBEntity\DBHelper.cs:行号 170
+   在 EmpSelfService.DAL.TelStateDAL.SaveTelState(OmTerminalStateTB om, String TableName) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\TelStateDAL.cs:行号 85;SQL:INSERT INTO OMTERMINALSTATEHISTB (CPUID,TIMELAST,SKTERMINALID,
+CZTERMINALID,SKSTATE,CZSTATE,CARDISSUERSTATE,PRINTERSTATE,CASHBOXSTATE,UPSSTATE,UPSPERCENTAGE) 
+VALUES('BFEBFBFF00040651_W6228F8Q',TO_DATE('2017-08-29 10:50:36','YYYY-MM-DD HH24:MI:SS'),
+ '810188000125',
+ '810188000125',
+ '1',
+ '1',
+ '1',
+ '0',
+ '1',
+ '0',
+ '0')
+
+[堆栈信息]：   在 EmpSelfService.DAL.TelStateDAL.SaveTelState(OmTerminalStateTB om, String TableName) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\TelStateDAL.cs:行号 89
+   在 EmpSelfService.BLL.TelStateBLL.SaveTerState(OmTerminalStateTB om) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.BLL\TelStateBLL.cs:行号 37
+
+[2017/8/29 20:04:25]-[EmpSelfService.Api.AccountController.Get]
+[异常信息]：值不能为 null。
+参数名: key
+[堆栈信息]：   在 System.Web.Caching.CacheKey..ctor(String key, Boolean isPublic)
+   在 System.Web.Caching.CacheInternal.DoGet(Boolean isPublic, String key, CacheGetOptions getOptions)
+   在 System.Web.Caching.Cache.Get(String key)
+   在 EmpSelfService.Common.CacheHelper.Get(String key) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CacheHelper.cs:行号 68
+   在 EmpSelfService.Api.Controllers.AccountController.Get(String terminalNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\AccountController.cs:行号 33
+
+[2017/8/29 20:49:10]-[EmpSelfService.Api.AccountController.Get]
+[异常信息]：值不能为 null。
+参数名: key
+[堆栈信息]：   在 System.Web.Caching.CacheKey..ctor(String key, Boolean isPublic)
+   在 System.Web.Caching.CacheInternal.DoGet(Boolean isPublic, String key, CacheGetOptions getOptions)
+   在 System.Web.Caching.Cache.Get(String key)
+   在 EmpSelfService.Common.CacheHelper.Get(String key) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CacheHelper.cs:行号 68
+   在 EmpSelfService.Api.Controllers.AccountController.Get(String terminalNo) 位置 C:\Users\Administrator\Desktop\自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\AccountController.cs:行号 33
+

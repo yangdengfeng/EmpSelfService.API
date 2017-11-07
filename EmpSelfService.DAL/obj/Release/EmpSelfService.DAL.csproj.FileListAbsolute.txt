@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\bin\Release\EmpSelfService.DAL.dll
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\bin\Release\EmpSelfService.DAL.pdb
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\bin\Release\EmpSelfService.Common.dll
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\bin\Release\EmpSelfService.Model.dll
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\bin\Release\YKT.Core.dll
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\bin\Release\System.Net.Http.dll
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\bin\Release\LitJson.dll
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\bin\Release\EmpSelfService.Common.pdb
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\bin\Release\EmpSelfService.Model.pdb
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\bin\Release\System.Net.Http.xml
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\bin\Release\zh-Hans\System.Net.Http.resources.dll
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\obj\Release\EmpSelfService.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\obj\Release\EmpSelfService.DAL.dll
+C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.DAL\obj\Release\EmpSelfService.DAL.pdb

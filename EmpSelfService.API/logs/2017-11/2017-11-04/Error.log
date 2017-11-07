@@ -1,0 +1,22 @@
+﻿[2017/11/4 15:52:18]-[GlobalBLL.ParaAnalyze]
+values:nsoBmz4fh3CN963r4cwFvH98+NhnNA7Z365/Vw3Ho91PDoij/bKA5s5SljZZfrGq3c3uDFAL6FT8q7Yv6rqB/QulvfwgsAnprDAPs6D9W+VmFbZ0OnxsJ6uBbwQ5ugCNZaBQLPI07 num:23 password:12345678
+[异常信息]：Base-64 字符数组或字符串的长度无效。
+[堆栈信息]：   在 System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   在 System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   在 System.Convert.FromBase64String(String s)
+   在 YKT.Core.xEncrypt.Decrypt(String strText, String sDecrKey)
+   在 YKT.Core.xEncrypt.DecryptText(String strText, String strKey)
+   在 EmpSelfService.BLL.GlobalBLL.ParaAnalyze(String values, Int32 num, String password, String methodName, String terminalNo) 位置 C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.BLL\GlobalBLL.cs:行号 355
+
+[2017/11/4 18:19:04]-[EmpSelfService.Api.RecordCheckController.Post]
+[异常信息]：无法在 DLL“JMJDLL.dll”中找到名为“Verify_M1_TAC_XINING”的入口点。
+[堆栈信息]：   在 EmpSelfService.Common.DLLEntrance.Verify_M1_TAC_XINING(String pTacKey, Int32 pTacKeyLen, String pTacData, Int32 pTacDataLen, String pVerifyData, Int32 pVerifyDataLen)
+   在 EmpSelfService.Common.CheckTAC.TestM1() 位置 C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CheckTAC.cs:行号 25
+   在 EmpSelfService.Api.Controllers.RecordCheckController.Post(String terminalNo, String values) 位置 C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\RecordCheckController.cs:行号 29
+
+[2017/11/4 19:43:35]-[EmpSelfService.Api.RecordCheckController.Post]
+[异常信息]：无法在 DLL“JMJDLL.dll”中找到名为“Verify_M1_TAC_XINING”的入口点。
+[堆栈信息]：   在 EmpSelfService.Common.DLLEntrance.Verify_M1_TAC_XINING(String pTacKey, Int32 pTacKeyLen, String pTacData, Int32 pTacDataLen, String pVerifyData, Int32 pVerifyDataLen)
+   在 EmpSelfService.Common.CheckTAC.TestM1() 位置 C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.Common\CheckTAC.cs:行号 33
+   在 EmpSelfService.Api.Controllers.RecordCheckController.Post(String terminalNo, String values) 位置 C:\Users\Administrator\Desktop\西宁自助终端\EmpSelfServiceAPI\EmpSelfService.API\Controllers\RecordCheckController.cs:行号 29
+

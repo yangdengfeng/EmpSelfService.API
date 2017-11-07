@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpSelfService.API", "EmpSelfService.API\EmpSelfService.API.csproj", "{2152B873-1C9F-422D-9963-91042B093539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpSelfService.BLL", "EmpSelfService.BLL\EmpSelfService.BLL.csproj", "{F8966EAD-0566-4AFD-AD0C-E98DC9DB331B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpSelfService.Model", "EmpSelfService.Model\EmpSelfService.Model.csproj", "{66C19F5E-55B3-46F9-889D-433469B379A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpSelfService.DAL", "EmpSelfService.DAL\EmpSelfService.DAL.csproj", "{2AF8A046-A08B-4DC1-9898-B3969A08DA82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F2FPayDll", "F2FPayDll\F2FPayDll.csproj", "{7282133C-68F4-4FEA-8755-69FCA1604E79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aop.Api", "Aop.Api\Aop.Api.csproj", "{3542E950-4045-4F8F-8ECC-5B4F1F58687F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpSelfService.Common", "EmpSelfService.Common\EmpSelfService.Common.csproj", "{D49041A7-398F-482E-AE73-6A079EF0AEB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2152B873-1C9F-422D-9963-91042B093539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2152B873-1C9F-422D-9963-91042B093539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2152B873-1C9F-422D-9963-91042B093539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2152B873-1C9F-422D-9963-91042B093539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8966EAD-0566-4AFD-AD0C-E98DC9DB331B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8966EAD-0566-4AFD-AD0C-E98DC9DB331B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8966EAD-0566-4AFD-AD0C-E98DC9DB331B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8966EAD-0566-4AFD-AD0C-E98DC9DB331B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C19F5E-55B3-46F9-889D-433469B379A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C19F5E-55B3-46F9-889D-433469B379A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C19F5E-55B3-46F9-889D-433469B379A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C19F5E-55B3-46F9-889D-433469B379A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF8A046-A08B-4DC1-9898-B3969A08DA82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF8A046-A08B-4DC1-9898-B3969A08DA82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF8A046-A08B-4DC1-9898-B3969A08DA82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF8A046-A08B-4DC1-9898-B3969A08DA82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7282133C-68F4-4FEA-8755-69FCA1604E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7282133C-68F4-4FEA-8755-69FCA1604E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7282133C-68F4-4FEA-8755-69FCA1604E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7282133C-68F4-4FEA-8755-69FCA1604E79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3542E950-4045-4F8F-8ECC-5B4F1F58687F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3542E950-4045-4F8F-8ECC-5B4F1F58687F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3542E950-4045-4F8F-8ECC-5B4F1F58687F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3542E950-4045-4F8F-8ECC-5B4F1F58687F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49041A7-398F-482E-AE73-6A079EF0AEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49041A7-398F-482E-AE73-6A079EF0AEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49041A7-398F-482E-AE73-6A079EF0AEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49041A7-398F-482E-AE73-6A079EF0AEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
